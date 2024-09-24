@@ -4,8 +4,12 @@ public class AddressBook {
     /**
      * Attribute creating empty array list
      */
-    private ArrayList<BuddyInfo> book = new ArrayList<BuddyInfo>();
+    private ArrayList<BuddyInfo> book;
 
+
+    public AddressBook(){
+        book = new ArrayList<BuddyInfo>();
+    }
     /**
      * adds to the array list
      *
