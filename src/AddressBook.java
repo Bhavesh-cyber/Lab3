@@ -6,7 +6,7 @@ public class AddressBook {
      */
     private ArrayList<BuddyInfo> book;
 
-
+    //testing file with text
     public AddressBook(){
         book = new ArrayList<BuddyInfo>();
     }
